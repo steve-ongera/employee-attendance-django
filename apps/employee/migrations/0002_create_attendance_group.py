@@ -24,6 +24,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('employee', '0001_initial'),
+        ('attendance', '0001_initial'),  # Ensure the related model is created first
     ]
 
     operations = [
